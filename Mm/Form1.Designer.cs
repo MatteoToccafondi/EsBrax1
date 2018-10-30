@@ -34,15 +34,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+
             this.label6 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
+
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-=======
->>>>>>> BugFix
+
+            this.button3 = new System.Windows.Forms.Button();
+
             this.SuspendLayout();
             // 
             // label1
@@ -161,20 +163,30 @@
             this.label6.TabIndex = 8;
             this.label6.Text = "hello world!";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(197, 236);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(284, 262);
-<<<<<<< HEAD
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
-=======
             this.Controls.Add(this.label6);
+
+            this.Controls.Add(this.button3);
+
             this.Controls.Add(this.button2);
->>>>>>> BugFix
+
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label6);
@@ -199,15 +211,15 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+
         private System.Windows.Forms.Label label6;
-<<<<<<< HEAD
+
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-=======
->>>>>>> BugFix
+        private System.Windows.Forms.Button button3;
     }
 }
 

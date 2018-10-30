@@ -23,20 +23,19 @@ namespace Mm
 
         private void button1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             Lista.Add(Convert.ToInt32(textBox1.Text));
             label5.Text = Lista.Min().ToString();
             label4.Text = Lista.Max().ToString();
             Lista.Sort();
             label9.Text += textBox1.Text;       
-=======
           for (int i = 0; i < 5; i++){
                  Lista.Add(Convert.ToInt32(textBox1.Text));
                  label5.Text = Lista.Min().ToString();
                  label4.Text = Lista.Max().ToString();
                  
           }     
->>>>>>> BugFix
+
         }
 
         private void button2_Click(object sender, EventArgs e)
