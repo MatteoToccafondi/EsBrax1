@@ -25,6 +25,7 @@ namespace Mm
                  Lista.Add(Convert.ToInt32(textBox1.Text));
                  label5.Text = Lista.Min().ToString();
                  label4.Text = Lista.Max().ToString();
+                 
           }     
         }
 
