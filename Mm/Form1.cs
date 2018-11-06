@@ -24,6 +24,7 @@ namespace Mm
         private void button1_Click(object sender, EventArgs e)
         {
 
+
             int a = 1;
             int b = 12;
 
@@ -41,6 +42,11 @@ namespace Mm
                  
           }     
 
+        }
+
+        void lassativo()
+        {
+            MessageBox.Show("lassativo");
         }
 
         private void button2_Click(object sender, EventArgs e)
