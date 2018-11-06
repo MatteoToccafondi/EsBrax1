@@ -43,6 +43,10 @@ namespace Mm
           }     
 
         }
+        
+        private string uselessFeature1(){
+            return "Festure1";
+        }
 
         void lassativo()
         {
