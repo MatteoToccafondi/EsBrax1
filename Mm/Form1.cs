@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,8 +23,12 @@ namespace Mm
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             int a = 1;
             int b = 12;
+
+            int unused_variable = 9876;
+
             Lista.Add(Convert.ToInt32(textBox1.Text));
             label5.Text = Lista.Min().ToString();
             label4.Text = Lista.Max().ToString();
