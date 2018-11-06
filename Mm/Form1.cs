@@ -24,6 +24,7 @@ namespace Mm
         private void button1_Click(object sender, EventArgs e)
         {
             int a = 1;
+            int b = 12;
             Lista.Add(Convert.ToInt32(textBox1.Text));
             label5.Text = Lista.Min().ToString();
             label4.Text = Lista.Max().ToString();
