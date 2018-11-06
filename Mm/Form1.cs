@@ -42,6 +42,10 @@ namespace Mm
           }     
 
         }
+        
+        private string uselessFeature1(){
+            return "Festure1";
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
